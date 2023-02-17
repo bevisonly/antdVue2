@@ -1,0 +1,30 @@
+.new-page {
+  height: 100%;
+  background-color: @base-bg-color;
+  padding: 0 10px 10px;
+
+  .search {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(228, 228, 228);
+
+    /deep/.ant-form-item {
+      margin-bottom: 0;
+    }
+  }
+
+  .btns {
+    padding: 10px 0;
+  }
+
+  .data-table {
+    height: calc(100% - 191px);
+    
+  }
+
+  .pagination {
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}

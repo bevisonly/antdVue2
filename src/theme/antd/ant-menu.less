@@ -1,0 +1,30 @@
+.ant-menu-inline-collapsed-tooltip a {
+  color: @text-color-inverse;
+}
+
+.ant-menu-inline-collapsed>.ant-menu-item,
+.ant-menu-inline-collapsed>.ant-menu-item-group>.ant-menu-item-group-list>.ant-menu-item,
+.ant-menu-inline-collapsed>.ant-menu-item-group>.ant-menu-item-group-list>.ant-menu-submenu>.ant-menu-submenu-title,
+.ant-menu-inline-collapsed>.ant-menu-submenu>.ant-menu-submenu-title {
+  padding      : 0 6px !important;
+  // padding: 0 32px !important;
+  text-overflow: clip;
+  text-align   : center;
+  width        : 80px;
+  height       : 50px;
+  margin-bottom: 30px;
+
+  // line-height: 50px;
+  span {
+    // display      : block;
+  }
+
+  span>i {
+    display: block;
+  }
+
+  span>i.anticon {
+    line-height: 20px;
+    font-size  : 20px;
+  }
+}

@@ -1,0 +1,39 @@
+.new-page{
+  height: 100%;
+  background-color: @base-bg-color;
+  padding: 30px 20px;
+  margin-top: -24px;
+  .top-item {
+    .spanStyle {
+      vertical-align: middle;
+      font-size: 18px;
+      padding-left: 4px;
+    }
+    .tree {
+      position: absolute;
+      top: 34px;
+      width: 100%;
+      z-index: 2;
+      border-radius: 4px;
+      box-shadow: 0 0 4px #d1d1d1;
+      background-color: #fff;
+      .closeBtn {
+        background-color: #eeeeee;
+        box-shadow: 0 1px 1px #d1d1d1;
+      }
+      .treeHeight {
+        width: 100%;
+        min-height: 100px;
+        max-height: 420px;
+        overflow: auto;
+      }
+    }
+  }
+  .pagination {
+    margin-top: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}

@@ -1,0 +1,2 @@
+import returnSupplierCommdity from './returnSupplierCommdity'
+export default returnSupplierCommdity

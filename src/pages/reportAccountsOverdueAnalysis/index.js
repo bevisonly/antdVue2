@@ -1,0 +1,2 @@
+import reportAccountsOverdueAnalysis from './reportAccountsOverdueAnalysis.vue'
+export default reportAccountsOverdueAnalysis

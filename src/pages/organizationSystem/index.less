@@ -1,0 +1,31 @@
+.mainTop {
+  position: relative;
+  .queryInfo {
+    margin-bottom: 10px;
+    .colMargin {
+      margin: 10px 0;
+    }
+    .colStyle {
+      min-height: 440px;
+      border: 1px solid #e6e6e6;
+    }
+    #colStyle {
+      overflow: auto;
+      &::-webkit-scrollbar {
+        width: 10px;
+        height: 4px;
+      }
+      &::-webkit-scrollbar-track{
+        background-color: #eeeeee;
+        border-radius:4px;
+      }
+      &::-webkit-scrollbar-thumb{
+        background-color: #e6e6e6;
+        border-radius:2px;
+      }
+    }
+    .tableStyle {
+      padding-left: 4px;
+    }
+  }
+}

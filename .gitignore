@@ -1,0 +1,6 @@
+node_modules
+.vscode
+/.env.development
+/src/router/async/router.map.js.BASE.js
+/src/router/async/router.map.js.LOCAL.js
+/src/router/async/router.map.js.REMOTE.js

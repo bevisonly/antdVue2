@@ -1,0 +1,2 @@
+import internationalBusinessStatement from './internationalBusinessStatement'
+export default internationalBusinessStatement

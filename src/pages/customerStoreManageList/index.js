@@ -1,0 +1,2 @@
+import customerStoreManageList from './customerStoreManageList'
+export default customerStoreManageList

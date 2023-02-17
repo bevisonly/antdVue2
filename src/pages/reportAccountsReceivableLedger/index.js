@@ -1,0 +1,2 @@
+import reportAccountsReceivableLedger from './reportAccountsReceivableLedger.vue'
+export default reportAccountsReceivableLedger

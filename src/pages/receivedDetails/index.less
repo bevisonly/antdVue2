@@ -1,0 +1,81 @@
+@import '../../assets/css/commonless';
+.topDiv {
+  position: relative;
+  background-color: @base-bg-color;
+  .queryInfo {
+    margin-bottom: 10px;
+    border: @border-color;
+    .queryInfoP{
+      margin: 0;
+      padding-left: 15px;
+      height: 40px;
+      line-height: 40px;
+      border-bottom: @border-color;
+      background-color: @common-bgc;
+      letter-spacing: 1px;
+      font-size: 14px;
+      font-weight: 800;
+    }
+    .formItemStyle {
+      float: left;
+      margin-left: 15px;
+      .ant-button {
+        margin-right: 15px;
+      }
+    }
+    .formItemStylewidth {
+      width: 30%;
+      min-width: 200px;
+      max-width: 310px;
+    }
+    .ant-row .ant-form-item {
+      margin-bottom: 0;
+    }
+  }
+  .tableInfo{
+    border: @border-color;
+    .a-btn{
+      width: 50px;
+    }
+    .tableStyle {
+      cursor: default;
+      .ant-table-footer .ant-divider {
+        margin-left: 5px;
+        background-color: #7a7a7a;
+      }
+      .columnStyle {
+        text-align: center;
+        border-radius: 4px;
+      }
+      .columnStyleRed {
+        font-size: 20px;
+        background-color: #ff5050;
+        color: white;
+      }
+      .columnStyleBlue {
+        font-size: 20px;
+        background-color: #6e7dff;
+        color: white;
+      }
+    }
+    .bottomTitle{
+      height: 40px;
+      margin-bottom: 2px;
+      padding-left: 15px;
+      line-height: 40px;
+      border-bottom: @border-color;
+      background-color: @common-bgc;
+      letter-spacing: 1px;
+      font-size: 14px;
+      font-weight: 800;
+    }
+    .heightDiv {
+      padding: 0 15px;
+      height: 40px;
+      line-height: 40px;
+    }
+  }
+  .paginationContainer{
+    margin: 0;padding: 10px 8px 10px 0;
+  }
+}

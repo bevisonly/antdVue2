@@ -1,0 +1,2 @@
+import returnCommdityWaitInStock from './returnCommdityWaitInStock'
+export default returnCommdityWaitInStock

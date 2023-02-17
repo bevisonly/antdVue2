@@ -1,0 +1,79 @@
+.new-page {
+    height: 100%;
+    background-color: @base-bg-color;
+    padding: 0 10px 10px;
+
+    .form-details {
+        border: 1px solid #f0f0f0;
+        padding: 10px;
+        border-radius: 6px;
+
+        .info {
+            margin-bottom: 10px;
+
+            .info-title {
+                height: 35px;
+                line-height: 35px;
+                padding: 0 20px;
+                background-color: rgb(240, 243, 246);
+                font-weight: 550;
+                border-radius: 6px;
+                margin-bottom: 0;
+            }
+        }
+
+        /deep/.ant-form-item-label {
+            line-height: 22px;
+        }
+
+        /deep/.ant-form-item {
+            margin-bottom: 0;
+        }
+    }
+
+    .table {
+        margin-top: 8px;
+        border: 1px solid #f0f0f0;
+        border-radius: 6px;
+
+        .table-title {
+            height: 35px;
+            line-height: 35px;
+            padding: 0 20px;
+            background-color: rgb(240, 243, 246);
+            font-weight: 550;
+            border-radius: 6px;
+            margin-bottom: 0;
+        }
+
+        .table-search {
+            padding: 8px 10px;
+        }
+
+        .table-data {
+            padding: 10px;
+
+            .table-formva::before {
+                display: inline-block;
+                color: #f5222d;
+                font-size: 14px;
+                line-height: 1;
+                content: "*";
+            }
+        }
+
+    }
+
+    .btns {
+        text-align: right;
+        height: 60px;
+        line-height: 60px;
+    }
+
+    .pagination {
+        height: 50px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}

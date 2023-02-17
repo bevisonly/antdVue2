@@ -1,0 +1,2 @@
+import SortingProcessingOrder from './SortingProcessingOrder'
+export default SortingProcessingOrder

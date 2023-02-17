@@ -1,0 +1,234 @@
+/*定义基础类复用样式*/
+.flex-sa {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.flex-sb {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.flex-ct {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.flex-fs {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.flex-ed {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+
+/* 文本超出换行 */
+.textwrap3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.textwrap {
+  /*超出部分隐藏*/
+  overflow: hidden;
+  /*不换行*/
+  white-space: nowrap;
+  /*超出部分文字以...显示*/
+  text-overflow: ellipsis;
+}
+
+
+/* 鼠标手 */
+.cursorDef {
+  cursor: default;
+}
+
+.cursorPin {
+  cursor: pointer;
+}
+
+.cursorCro {
+  cursor: crosshair;
+}
+
+/* 红色字体 */
+.redfont {
+  color: red;
+}
+
+/* 绿色字体 */
+.greenfont {
+  color: #00e400;
+}
+
+/* 绿色浅色字体 */
+.greenfont-a {
+  color: #5bb95b;
+}
+
+/* 浅灰字体 */
+.greyfont {
+  color: #525252;
+}
+
+/* 黄色字体 */
+.yellowfont {
+  color: #fffb00;
+}
+
+/* 蓝色字体 */
+.bluefont {
+  color: #6161ee;
+}
+
+/* 悬浮绿漆色字体 */
+.paintfonthover:hover {
+  color: #13c2c2;
+}
+
+/* 悬浮红色字体 */
+.redfonthover:hover {
+  color: #fd2b2b;
+}
+
+/* 悬浮蓝色字体 */
+.bluefonthover:hover {
+  color: #1900ff;
+}
+
+/* 悬浮antd绿字体 */
+.antdgreenfonthover:hover {
+  color: #4da125;
+}
+
+/* 悬浮蓝色下划线字体 */
+.blueunderlinefonthover:hover {
+  color: #1900ff;
+  text-decoration: underline;
+}
+
+/* 红色*号必填项 */
+.aRequired::before {
+  display: inline-block;
+  margin-right: 4px;
+  font-size: 14px;
+  line-height: 1;
+  content: '*';
+  color: #f5222d;
+  font-family: SimSun, sans-serif;
+}
+
+/* 红色*号必填项 */
+.required .ant-form-item-label::before {
+  display: inline-block;
+  margin-right: 4px;
+  font-size: 14px;
+  line-height: 1;
+  content: '*';
+  color: #f5222d;
+  font-family: SimSun, sans-serif;
+}
+
+/* 红色*号必填项 */
+.required .ant-table-column-title::before {
+  display: inline-block;
+  margin-right: 4px;
+  font-size: 14px;
+  line-height: 1;
+  content: '*';
+  color: #f5222d;
+  font-family: SimSun, sans-serif;
+}
+
+/* 红色*号必填项 */
+.ant-table-column-title > .required::before {
+  display: inline-block;
+  margin-right: 4px;
+  font-size: 14px;
+  line-height: 1;
+  content: '*';
+  color: #f5222d;
+  font-family: SimSun, sans-serif;
+}
+
+.topDragStyle {
+  margin: 4px 0;
+  padding: 4px 6px 3px 6px;
+  border-radius: 2px;
+  border: 1px solid #e6e6e6;
+}
+
+.topDragStyle:hover {
+  background-color: #ebebeb;
+}
+
+.topDragStyle .bottomDragStyle {
+  width: 21.58px;
+  padding: 0 5px;
+  border: 1px solid #e6e6e6;
+  border-radius: 50%;
+}
+
+.dragSelect {
+  background-color: #999999;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.ant-input-number-handler-wrap {
+  width: 0;
+}
+
+.ant-input-number {
+  width: 100%;
+}
+
+.noShowTimeStyle .ant-calendar-time-picker-btn {
+  display: none !important;
+}

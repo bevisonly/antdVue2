@@ -1,0 +1,15 @@
+@common-bgc: #F0F3F6;
+@border-color: 1px solid #cccccc;
+.scrollBar(){
+  &::-webkit-scrollbar {
+      width: 4px;
+  }
+  &::-webkit-scrollbar-track{
+    background-color: #eeeeee;
+    border-radius:4px;
+  }
+  &::-webkit-scrollbar-thumb{
+    background-color: #e6e6e6;
+    border-radius:2px;
+  }
+}  //滚动条样式   运用时直接将.scroll_bar()写在选择器下方即可  注意先设置 高 和 overflow: auto;

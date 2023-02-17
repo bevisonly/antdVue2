@@ -1,0 +1,98 @@
+@import '../../assets/css/commonless';
+.common-a-style() {
+  display: inline-block;
+  width: 104px;
+  height: 32px;
+  padding-left: 15px;
+  line-height: 32px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  color: #000000a6;
+  &:hover{
+    border: 1px solid #13c2c2;
+    color: #13c2c2;
+  }
+}
+.finalTop{
+  position: relative;
+  min-width: 1050px;
+  min-height: 768px;
+  background-color: @base-bg-color;
+  .topBox{
+    margin-bottom: 10px;
+    border: @border-color;
+    .topQuery{
+      margin: 0;
+      height: 40px;
+      padding-left: 15px;
+      line-height: 40px;
+      background-color: @common-bgc;
+      letter-spacing: 1px;
+      font-size: 14px;
+      font-weight: 800;
+    }
+    .formContainer{
+      padding-bottom: 8px;
+      border-top: @border-color;
+      padding: 15px 10px;
+      .forBorder{
+        /deep/.ant-select-selection{
+          border-radius: 4px;
+        }
+        /deep/.ant-input{
+          border-radius: 4px;
+        }
+      }
+      .ant-button{
+        margin-right: 15px;
+      }
+    }
+  }
+  .bottomBox{
+    border: @border-color;
+    .bottomTitle{
+      height: 40px;
+      padding-left: 15px;
+      line-height: 40px;
+      border-bottom: @border-color;
+      background-color: @common-bgc;
+      letter-spacing: 1px;
+      font-size: 14px;
+      font-weight: 800;
+    }
+    .tableContainer{
+      .topButton{
+        margin: 10px 15px 0;
+        .buttonGroup{
+          .antUpload{
+            float: left;
+            margin-right: 5px;
+          }
+          .label-style{
+            .common-a-style();
+            width: 82px;
+            margin-right: 5px;
+          }
+          .a-style-top{
+            .common-a-style();
+            width: 106px;
+            margin-right: 5px;
+          }
+          .a-style{
+            .common-a-style()
+          }
+        }
+        .a-button-group{
+          .a-button{
+            width: 50px;
+          }
+        }
+      }
+      .pagination-style{
+        margin: 4px 16px;
+        padding: 8px 0;
+        border:1px solid #ebebeb;
+      }
+    }
+  }
+}
